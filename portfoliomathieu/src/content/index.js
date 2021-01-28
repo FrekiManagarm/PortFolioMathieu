@@ -17,6 +17,8 @@ export const content = {
       2000,
       'Développeur Mobile',
       2000,
+      'Monteur de PC',
+      2000,
     ],
     btnText: 'Découvrir plus',
   },
@@ -45,7 +47,7 @@ export const content = {
         alt: 'mysql'
       }
     ],
-    desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only`,
+    desc: `Cet environnement me permet d'être à l'aise autant sur le Front-End grâce à NextJS(Web) et Flutter ou React Native(Mobile), qu'en Back-End avec Laravel et MySQL en Base de Données.`,
   },
   work: {
     title: 'Mes Projets',
