@@ -73,7 +73,7 @@ const ProjectDetail = () => {
           alt="rocket"
           className="mr-5"
         />
-        <a className="text-lg" href="https://github.com/FrekiManagarm/HardShop3.0" target='_blank'>Le lien vers le projet</a>
+        <a className="text-lg" href="https://github.com/FrekiManagarm/HardShop3.0" target='_blank' rel="noreferrer">Le lien vers le projet</a>
       </button>
     </div>
   );
