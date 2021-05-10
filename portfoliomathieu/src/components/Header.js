@@ -23,12 +23,13 @@ export default function Header() {
       <div className="flex flex-col items-center justify-center md:flex-row-reverse md:w-10/12 md:justify-between">
         <div className="w-full md:w-2/5 ">
             <Tilt>
-              <img src={content.header.img} alt="img" className="rounded-full" />
+              <img data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" src={content.header.img} alt="img" className="rounded-full" />
             </Tilt>
         </div>
 
-        <div className="font-dosis w-full md:w-3/5 text-center md:text-left ">
+        <div data-aos="fade-left" data-aos-delay="50" className="font-dosis w-full md:w-3/5 text-center md:text-left ">
           <h2
+                
             className={`text-3xl md:text-4xl lg:text-6xl text-white font-bold transform ${
               animated ? 'translate-y-0' : styleTranslate
             }  ${transition(2000)} `}
