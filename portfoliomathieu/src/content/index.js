@@ -4,6 +4,7 @@ export const content = {
     links: [
       { text: 'Mon travail', to: 'mywork' },
       { text: 'Contact', to: 'mycontact' },
+      { text: 'Mes tarifs', to: 'mycosts' }
     ],
   },
   header: {
